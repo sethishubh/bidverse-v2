@@ -1,0 +1,29 @@
+.popularbids h2 {
+  font-size: 3.2rem;
+  color: #212529;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 6rem 4rem 3.2rem;
+  margin-top: 6.4rem;
+  margin-left: 2rem;
+  border-bottom: 0.4rem solid transparent;
+  padding-bottom: 0.4rem;
+  display: inline-block;
+}
+
+.popularbids h2:hover {
+  color: #05223d;
+  cursor: pointer;
+  border-bottom: 0.4rem solid #05223d;
+}
+
+.popularbids {
+  margin: 3.2rem;
+}
+
+.popularbids_flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

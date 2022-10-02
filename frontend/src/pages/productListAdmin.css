@@ -1,0 +1,57 @@
+.admin_product_create_main {
+  box-shadow: 1rem 1rem 6rem rgb(197, 196, 196);
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  margin: 6.4rem auto;
+  padding: 3.2rem;
+  width: 128rem;
+  min-height: 100vh;
+}
+
+.admin_product_create_main h1 {
+  color: #212529;
+  margin-bottom: 6.4rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #212529;
+}
+
+.admin_product_list_container input,
+.admin_product_list_container textarea {
+  display: block;
+  margin: 1rem;
+  margin-bottom: 1.8rem;
+  border-radius: 1rem;
+  width: 100%;
+  color: #212529;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 0.6rem 0.8rem;
+}
+
+.admin_product_list_container label {
+  display: block;
+  margin: 1rem;
+  font-weight: 600;
+}
+
+.admin_product_list_container button,
+.product_list_admn_link {
+  color: #dee2e6;
+  background-color: #1971c2;
+  cursor: pointer;
+  padding: 1rem 1.4rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  text-align: center;
+  border: none;
+  font-weight: 500;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.admin_product_list_container button:hover,
+.product_list_admn_link:hover {
+  background-color: #054480;
+}

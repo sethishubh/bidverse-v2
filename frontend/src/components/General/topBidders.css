@@ -1,0 +1,29 @@
+.topbidders_container {
+  font-size: 3.2rem;
+  margin: 6rem 4rem 3.2rem;
+  margin-top: 7.4rem;
+  margin-left: 2rem;
+  color: #212529;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.topbidders_container h3 {
+  font-size: 2.4rem;
+  text-align: center;
+  width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topbidders_container h2:hover {
+  color: #1971c2;
+  cursor: pointer;
+}
+
+.topbidders_grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

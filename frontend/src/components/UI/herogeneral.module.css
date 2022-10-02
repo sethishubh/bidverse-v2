@@ -1,0 +1,79 @@
+.heroimg {
+  background-image: linear-gradient(
+      to right,
+      rgba(33, 37, 41, 0.986),
+      rgba(33, 37, 41, 0.986)
+    ),
+    url("https://images.pexels.com/photos/5717509/pexels-photo-5717509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  height: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3rem;
+  position: relative;
+  width: 130rem;
+  margin: 1rem auto;
+}
+
+.hero_heading_primary {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero_heading_main {
+  font-size: 6.4rem;
+  line-height: 0.95;
+}
+
+.hero_inner {
+  width: 60%;
+}
+
+.hero_text {
+  color: #dee2e6;
+  width: 1200px;
+  margin-right: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero_heading_main {
+  color: #1971c2;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+.hero_categories {
+  color: #dee2e6;
+  background-color: #1971c2;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  margin: 2rem 1.4rem;
+  border-radius: 1rem;
+  margin-left: 0;
+  border: none;
+}
+
+.herobid_btn {
+  color: #dee2e6;
+  background-color: #1971c2;
+  cursor: pointer;
+  padding: 1rem 1.4rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  font-weight: 500;
+  border-radius: 1rem;
+  margin: 2rem 1.4rem;
+}
+
+.hero_buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

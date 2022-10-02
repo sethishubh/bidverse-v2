@@ -1,0 +1,80 @@
+.biditem_outer {
+  width: 128rem;
+  padding: 2rem;
+  margin: 6.4rem auto;
+  box-shadow: 1rem 1rem 6rem rgb(197, 196, 196);
+  border-radius: 2rem;
+  font-size: 2.4rem;
+}
+
+.biddetail_grid {
+  margin-top: 2rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: start;
+  font-size: 1.8rem;
+  gap: 2rem;
+}
+
+.biddetail_img {
+  display: block;
+  height: 38rem;
+  margin: 1rem;
+  border-radius: 1.4rem;
+}
+
+.biditem_outer_title {
+  margin-left: 2.4rem;
+}
+
+.biddetail_right {
+  padding: 1rem;
+}
+
+.biddetail_text {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.biddetailcard_button {
+  text-align: center;
+  color: #f8f9fa;
+  background-color: #212529;
+  cursor: pointer;
+  padding: 1.2rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  font-weight: 500;
+  border-radius: 1.4rem;
+  display: block;
+  margin: 4rem 1.4rem;
+  margin-left: 0;
+}
+
+.bid_container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.bid_container_input {
+  display: inline-block;
+  border-radius: 1rem;
+  padding: 0.6rem 1rem;
+  font-family: inherit;
+  color: #212529;
+  font-size: 1.6rem;
+}
+
+.biddetailcard_button:hover {
+  background-color: #054480;
+}
