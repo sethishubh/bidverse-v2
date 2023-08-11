@@ -1,4 +1,4 @@
-# Bidverse
+# Bidverse webapp
 
 ###  An online auction platform where users can place auction for the displayed products.
 
